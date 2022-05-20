@@ -90,8 +90,9 @@ class ProductsList extends StatelessWidget {
                                     Container(
                                       margin: EdgeInsets.all(10),
                                       decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.all(
-                                              Radius.circular(10))),
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(10)),
+                                      ),
                                       height: 80,
                                       width: 80,
                                       child: Image.network(('https:') +
